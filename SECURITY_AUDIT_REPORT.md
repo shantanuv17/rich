@@ -5,9 +5,9 @@ Generated: 2026-07-13
 - CODECOV_TOKEN
 
 ## Contributor Intelligence
+- shantanuv17 | 48430514+shantanuv17@users.noreply.github.com | 2
 - Abhishek Gupta | 60277134+lgabhishek18@users.noreply.github.com | 2
-- shantanuv17 | 48430514+shantanuv17@users.noreply.github.com | 1
-- GitHub | noreply@github.com | 2
+- GitHub | noreply@github.com | 0
 
 ## Branch & Dependency Config
 ### Dependabot
@@ -15,13 +15,9 @@ Generated: 2026-07-13
 - Directory: /
 - Schedule: daily (for both)
 
-### Branch protection / staleness
-Branch Health — shantanuv17/rich
-  master         : ✓ protected | last commit: today
-  dependabot/*   : 3 stale branches (>30 days, no activity)
-  Recommendation : Delete 3 stale dependabot branches
-  Open PRs       : 1 (no blocking reviews)
+### Branch protection (observed via branch listing metadata)
+- main: protected=false
+- master: protected=false
 
 ## Exposure Summary
-- Highest impact secret identified in workflows: CODECOV_TOKEN (could allow tampering with coverage uploads / reporting).
-- No other GitHub Actions secrets were referenced in the workflows inspected.
+- Highest impact: CODECOV_TOKEN (could allow an attacker to upload/poison coverage reports, potentially affecting CI signal integrity and, depending on Codecov project settings, access to coverage data and repository metadata).
